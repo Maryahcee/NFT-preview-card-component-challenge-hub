@@ -130,9 +130,11 @@ p.name {
   text-align: left;
   padding: 1rem;
 }
+
 p.name span {
   color: var(--Soft-blue);
 }
+
 /* Attributes */
 .attribution {
   font-size: 11px;
