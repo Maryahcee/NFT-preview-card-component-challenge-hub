@@ -1,64 +1,92 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Outfit:wght@300;400;600&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Outfit:wght@300;400;600&display=swap");
 
-:root{
-    --Soft-blue: hsl(215, 51%, 70%);
-    --Cyan: hsl(178, 100%, 50%);
-    --Very-dark-blue: hsl(217, 54%, 11%);
-    --Very-dark-blue: hsl(216, 50%, 16%);
-    --Very-dark-blue: hsl(215, 32%, 27%);
-    --White: hsl(0, 0%, 100%);
+:root {
+  --Soft-blue: hsl(215, 51%, 70%);
+  --Cyan: hsl(178, 100%, 50%);
+  --Very-dark-blue: hsl(217, 54%, 11%);
+  --Very-dark-blue: hsl(216, 50%, 16%);
+  --Very-dark-blue: hsl(215, 32%, 27%);
+  --White: hsl(0, 0%, 100%);
 }
 
-*{
-    margin: 0%;
-    padding: 0%;
-    box-sizing: border-box;
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
 }
 
 body {
-    background-color: hsl(217, 54%, 11%);
-    font-size: 18px;
-    width: 100vh;
-    align-items: center;
-    justify-content: center;
-    font-family: "Outfit", sans-serif;
+  background-color: hsl(217, 54%, 11%);
+  font-size: 18px;
+  width: 100vh;
+  align-items: center;
+  justify-content: center;
+  font-family: "Outfit", sans-serif;
 }
 
-.container{
-    background-color: hsl(216, 50%, 16%);
-    margin: 5rem;
-    padding: 1rem;
-    display: flex;
-    flex-direction: column;
-    border-radius: 2rem;
-    align-items: center;
-    justify-content: center;
-    overflow: hidden;
+.container {
+  background-color: hsl(216, 50%, 16%);
+  margin: 5rem;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  border-radius: 2rem;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
 }
 
-.container .card img{
-    width: 500px;
-    height: 500px;
-    padding: 1rem;
-    align-items: center;
-    justify-content: center;
-    border-radius: 2rem;
+.container .card img {
+  width: 500px;
+  height: 500px;
+  padding: 1rem;
+  align-items: center;
+  justify-content: center;
+  border-radius: 2rem;
 }
 
-.container h2{
-    color: var(--White);
-    font-family: "Outfit", sans-serif;
-    font-size: 28;
-    font-weight: 600;
-    margin: .5rem 15rem 0 0;
-    line-height: 1.7;
+.container h2 {
+  color: var(--White);
+  font-family: "Outfit", sans-serif;
+  font-size: 30px;
+  font-weight: 600;
+  text-align: left;
+  margin: 0.5rem 13rem 0 0;
+  line-height: 1.6;
+}
+
+.container p.main-paragraph {
+  color: var(--Soft-blue);
+  font-size: 26px;
+  font-weight: 400;
+  line-height: 1.8;
+  text-align: left;
+  margin: 1rem 0 2rem 1.3rem;
+}
+
+.overview {
+  display: flex;
+  color: var(--Cyan);
+}
+
+.overview .value {
+  display: flex;
+  justify-content: space-between;
+  color: var(--Cyan);
+  margin-right: 10rem;
+}
+
+.etherium {
+  padding-right: 0.5rem;
+  font-size: 16px;
+  display: flex;
+  flex-direction: row;
 }
 /* Attributes */
-    .attribution { 
-        font-size: 11px; 
-        text-align: center;
-     }
-    .attribution a { 
-        color: hsl(228, 45%, 44%);
-     }
- 
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
