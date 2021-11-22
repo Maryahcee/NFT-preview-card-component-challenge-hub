@@ -15,8 +15,20 @@
     box-sizing: border-box;
 }
 
-.container{
+body {
+    background-color: hsl(217, 54%, 11%);
+    font-size: 18px;
+    width: 100vh;
+    align-items: center;
+    justify-content: center;
+    font-family: "Outfit", sans-serif;
+}
 
+.container{
+    background-color: var(--Very-dark-blue);
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
 }
 /* Attributes */
     .attribution { 
