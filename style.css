@@ -66,21 +66,39 @@ body {
 
 .overview {
   display: flex;
-  color: var(--Cyan);
+  margin: 20px auto;
+  padding: 10px;
+  width: 90%;
+  flex-direction: row;
+  align-items: center;
+  line-height: 1.5;
+  justify-content: space-between;
 }
 
 .overview .value {
-  display: flex;
-  justify-content: space-between;
   color: var(--Cyan);
-  margin-right: 10rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .etherium {
-  padding-right: 0.5rem;
   font-size: 16px;
+  height: 1.5em;
+  padding-right: 10px;
+}
+
+.clock {
+  height: 1.5em;
+  padding-left: 30px;
+}
+
+.time {
+  color: var(--Soft-blue);
   display: flex;
-  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding-left: 5px;
 }
 /* Attributes */
 .attribution {
