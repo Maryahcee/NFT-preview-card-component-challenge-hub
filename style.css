@@ -117,21 +117,22 @@ body {
   align-items: center;
   justify-content: center;
   width: 95%;
-  margin-right: 5rem;
+  padding: 0.5rem;
 }
 
 .profile img {
   height: 3.5em;
+  padding-bottom: 0.5rem;
 }
 
 p.name {
-  display: flex;
   justify-content: center;
   color: var(--White);
-  font-size: 22px;
+  font-size: 18px;
   font-family: "Outfit", sans-serif;
   text-align: left;
-  padding: 1rem;
+  margin-left: 1rem;
+  padding-bottom: 1rem;
 }
 
 p.name span {
