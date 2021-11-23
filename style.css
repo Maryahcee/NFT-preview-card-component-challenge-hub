@@ -117,12 +117,15 @@ body {
   align-items: center;
   justify-content: center;
   width: 95%;
-  padding: 0.5rem;
+  padding: 0 7rem 2rem 0.5rem;
 }
 
 .profile img {
   height: 3.5em;
-  padding-bottom: 0.5rem;
+  width: 3.5em;
+  border-radius: 50%;
+  border-style: solid;
+  border-color: white;
 }
 
 p.name {
@@ -153,9 +156,17 @@ footer {
   color: hsl(228, 45%, 44%);
 }
 
-@media (man-width: 568px) {
-  .card {
-    height: 300px;
+@media (min-width: 600px) {
+  .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    height: 700px;
     width: 400px;
+  }
+
+  footer {
+    padding: 0;
   }
 }
