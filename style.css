@@ -52,17 +52,18 @@ body {
   font-size: 28px;
   font-weight: 600;
   text-align: left;
-  margin: 0.5rem 13rem 0 0;
   line-height: 1.6;
+  margin-right: 3rem;
 }
 
 .container p.main-paragraph {
   color: var(--Soft-blue);
   font-size: 24px;
   font-weight: 400;
-  line-height: 1.8;
+  line-height: 1.7;
   text-align: left;
-  margin: 1rem 0 2rem 1.3rem;
+  margin-left: 2rem;
+  padding: 1rem 0;
 }
 
 .overview {
