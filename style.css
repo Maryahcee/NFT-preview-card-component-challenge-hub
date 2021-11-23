@@ -140,9 +140,14 @@ p.name span {
 }
 
 /* Attributes */
+footer {
+  margin-top: 0.5rem;
+}
+
 .attribution {
   font-size: 11px;
   text-align: center;
+  color: var(--White);
 }
 .attribution a {
   color: hsl(228, 45%, 44%);
