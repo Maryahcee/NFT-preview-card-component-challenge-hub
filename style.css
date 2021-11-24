@@ -196,7 +196,7 @@ footer {
   .card:hover img {
     opacity: 100%;
     filter: blur(0);
-    visibility: visible;
+    transform: translate(-50%, -50%);
   }
 
   .card:hover {
